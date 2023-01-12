@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body{
+    max-width: 1000px;
+    text-align: justify;
+    background-color: black;
+    margin: auto;
+}
+main{
+    background-color: white;
+    margin: 10px 10px;
+    padding: 5px;
+    padding-top: 20px;
+}
+.dados{
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+.dados p{
+    font-size: 20px;
+}
+.contato{
+    padding-top: 20px;
+}
+.foto{
+    float: left;
+    display: inline-block;
+    margin: 10px;
+    max-height: 360px;
+    min-height: 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 200%;
+}
+h2{
+    margin: 25px 10px 6px 10px;
+    padding: 2px;
+}
+p{
+    margin: 6px 10px;
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: darkblue;
+    text-shadow: 1px 1px 1px darkblue;
+}
+a::after{
+    color: red;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin: 30px;
+    padding: 5px;
+    
+}
